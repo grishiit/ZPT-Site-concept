@@ -1,0 +1,157 @@
+/* Базовые настройки */
+body {
+  margin: auto;
+  font-family: ubuntu; /* Шрифт */
+  background-image: url(); /* Фоновое изображение */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #f5f5f5;
+  color: #010203;
+}
+
+/* Настройки главного логотипа */
+.logo_container { /* Блок с Лого и текстом */
+  background-color: #00000000;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  max-width: 30%;
+  min-width: 250px;
+  font-size: small;
+}
+
+.main_logo {
+  height: 64px;
+  padding: 4px;
+  border-radius: 21px;
+  background-color: #f5f5f5e0;
+  vertical-align: middle;
+}
+
+.main_logo:hover {
+  /* filter: invert(41%) sepia(58%) saturate(5432%) hue-rotate(193deg) brightness(93%) contrast(84%); */
+  background-color: #90cdf4e0;
+}
+
+.logos {
+  height: 16px;
+}
+
+a {
+  color: #374151;
+}
+
+a:hover {
+  color: #157AD6;
+}
+
+.container {
+  background-color: #f5f5f5ce;
+  max-width: 960px;
+  min-width: 300px;
+  padding: 24px;
+  margin: auto;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 21px;
+}
+
+.header {
+  background-image: url(images/bg_upscayl.png);
+  background-color: #ffffff46;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 960px;
+  min-width: 300px;
+
+  margin: auto;
+  border-radius: 21px;
+}
+
+/* Настройки меню со ссылками */
+.top_menu {
+  background-color: #272727;
+  max-width: 960px;
+  min-width: 300px;
+  padding: 12px;
+  margin: auto;
+  border-radius: 21px;
+}
+
+.navbar {
+  position: relative;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {  /* Стиль статичных кнопок */
+  color: #222933;
+  text-decoration: none;
+  background-color: #d9d9d9b2;
+  max-width: 960px;
+  min-width: 300px;
+  padding: 9px;
+  margin: auto;
+  border-radius: 12px;
+  line-height: 40px;
+}
+
+.navbar li a:hover {  /* Стиль выделенных кнопок */
+  color: #0e5d90;
+  background-color: #ffffffb2;
+}
+
+/* Стиль выпадающего меню */
+.navbar ul ul {
+  position: absolute;
+  display: none;
+  padding: 9px;
+}
+
+.navbar ul ul li {
+  display: block;
+}
+
+.navbar li:hover ul {
+  background-color: #2c3542;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Change the background color of dropdown links on hover */
+.navbar ul ul li a {
+  background-color: #d9d9d9b2;
+  color: #222933;
+}
+
+.navbar ul ul li a:hover {
+  color: #0e5d90;
+  background-color: #ffffffb2;
+}
+
+/* Нижняя часть страницы */
+.foot {
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+}
+
+h1 {
+  text-align: center;
+  color: #746cc0;
+}
+
+p {
+  line-height: 24px;
+}
