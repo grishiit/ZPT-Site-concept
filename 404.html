@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>404.zpt</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.svg"> <!--Иконка Сайта-->
+        <meta name="description" content="belo">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            @keyframes gradient {
+                0% {
+                    background-position: 0% 50%;
+                }
+
+                50% {
+                    background-position: 100% 50%;
+                }
+
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+            body {
+                font-family: sans-serif; /* Шрифт */
+                color: #010203;
+                background: linear-gradient(-30deg, #2b2b2b, #0084ff);
+                animation: gradient 30s ease-in-out infinite;
+                background-size: 400% 400%;
+            }
+
+            .logo {
+                width: 100%;
+                border-radius: 8px;
+            }
+
+            a {
+                color: #010203;
+            }
+
+            a:hover {
+                color: black;
+                filter: invert(37%) sepia(59%) saturate(997%) hue-rotate(247deg) brightness(90%) contrast(80%);
+            }
+
+            .container {
+                background-color: #f5f5f5ce;
+                max-width: 20%;
+                min-width: 300px;
+                padding: 24px;
+                margin: auto;
+                box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+                border-radius: 21px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            h1 {
+                text-align: center;
+                color: #746cc0;
+            }
+
+            p {
+                line-height: 24px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <a href=""><img class="logo" src="images/favicon.svg"></a>
+            <h3 style="text-align: center;">404</h3>
+            <a href="#"><h1>Proprietary</h1></a>
+        </div>
+    </body>
+</html>
+
+<!--Icons source: https://icons.getbootstrap.com -->
+<!--Icon colouring made with: https://codepen.io/sosuke/pen/Pjoqqp -->
